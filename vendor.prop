@@ -187,6 +187,10 @@ vendor.perf.framepacing.enable=1
 # Phantom process monitoring
 sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
+# Radio
+persist.vendor.radio.enableadvancedscan=false
+persist.vendor.radio.mt_sms_ack=30
+
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
