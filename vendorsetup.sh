@@ -8,11 +8,11 @@ git clone https://github.com/Legendleo90/kernel_xiaomi_beryllium.git kernel/xiao
 
 # MiCam
 rm -rf vendor/miuicamera
-git clone https://github.com/Legendleo90/vendor_miuicamera.git vendor/miuicamera --depth=1
+git clone https://github.com/resist15/vendor_miuicamera.git vendor/miuicamera --depth=1
 
 # Viper4FX
 rm -rf packages/apps/ViPER4AndroidFX
-git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git -b v4a packages/apps/ViPER4AndroidFX
+git clone https://github.com/Dheeraj3031A/packages_apps_ViPER4AndroidFX.git -b 13 packages/apps/ViPER4AndroidFX
 
 # BCR
 rm -rf vendor/bcr
