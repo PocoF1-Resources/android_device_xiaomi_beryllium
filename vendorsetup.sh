@@ -4,7 +4,7 @@ git clone https://github.com/Dheeraj3031A/proprietary_vendor_xiaomi_beryllium.gi
 
 # Kernel Tree
 rm -rf kernel/xiaomi/beryllium
-git clone https://github.com/Legendleo90/kernel_xiaomi_beryllium.git kernel/xiaomi/beryllium --depth=1
+git clone https://github.com/Dheeraj3031A/kernel_xiaomi_beryllium.git -b 15.0-ksu_next kernel/xiaomi/beryllium --depth=1
 
 # MiCam
 rm -rf vendor/miuicamera
@@ -21,3 +21,8 @@ git clone https://github.com/Chaitanyakm/vendor_bcr.git -b main vendor/bcr --dep
 # Clang
 rm -rf prebuilts/clang/host/linux-x86/clang-r487747c
 git clone https://gitlab.com/kei-space/clang/r487747c.git -b master prebuilts/clang/host/linux-x86/clang-r487747c --depth=1
+
+#KSU Script
+cd kernel/xiaomi/beryllium
+curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next-susfs/kernel/setup.sh" | bash -s next-susfs
+cd ../../..
