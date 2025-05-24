@@ -17,6 +17,9 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 #ARROW_GAPPS := true
 
+# Bypass Charging flags
+BYPASS_CHARGE_SUPPORTED := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_beryllium
 PRODUCT_DEVICE := beryllium
