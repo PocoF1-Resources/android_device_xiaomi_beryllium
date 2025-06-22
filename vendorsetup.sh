@@ -24,5 +24,5 @@ git clone https://gitlab.com/kei-space/clang/r487747c.git -b master prebuilts/cl
 
 #KSU Script
 cd kernel/xiaomi/beryllium
-curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next-susfs/kernel/setup.sh" | bash -s next-susfs
+curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -
 cd ../../..
