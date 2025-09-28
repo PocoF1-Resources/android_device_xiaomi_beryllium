@@ -16,7 +16,7 @@ git clone https://github.com/PocoF1-Resources/android_kernel_xiaomi_sdm845.git -
 
 # Hardware
 rm -rf hardware/xiaomi
-git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-22.2 hardware/xiaomi
+git clone https://github.com/crdroidandroid/android_hardware_xiaomi.git -b 15.0 hardware/xiaomi
 
 # KernelSU
 cd kernel/xiaomi/sdm845
