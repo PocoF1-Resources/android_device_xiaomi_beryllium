@@ -12,7 +12,7 @@ git clone https://github.com/PocoF1-Resources/proprietary_vendor_xiaomi_sdm845-c
 
 # Kernel Tree
 rm -rf kernel/xiaomi/sdm845
-git clone https://github.com/PocoF1-Resources/android_kernel_xiaomi_sdm845.git -b 15.0-KSU-Next kernel/xiaomi/sdm845 --depth=1
+git clone https://github.com/PocoF1-Resources/android_kernel_xiaomi_sdm845.git -b 16.0-KSU-Next kernel/xiaomi/sdm845 --depth=1
 
 # Hardware
 rm -rf hardware/xiaomi
