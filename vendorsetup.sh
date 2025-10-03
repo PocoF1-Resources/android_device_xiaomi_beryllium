@@ -22,3 +22,8 @@ git clone https://github.com/PocoF1-Resources/hardware_xiaomi.git -b 16 hardware
 cd kernel/xiaomi/sdm845
 curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -
 cd ../../..
+
+# BCR
+rm -rf vendor/bcr
+git clone https://github.com/Chaitanyakm/vendor_bcr.git -b main vendor/bcr --depth=1
+
