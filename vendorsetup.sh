@@ -17,3 +17,8 @@ git clone https://github.com/PocoF1-Resources/android_kernel_xiaomi_sdm845.git -
 # Hardware
 rm -rf hardware/xiaomi
 git clone https://github.com/PocoF1-Resources/hardware_xiaomi.git -b 16 hardware/xiaomi
+
+# BCR
+rm -rf vendor/bcr
+git clone https://github.com/Chaitanyakm/vendor_bcr.git -b main vendor/bcr --depth=1
+
