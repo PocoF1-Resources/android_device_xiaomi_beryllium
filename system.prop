@@ -11,7 +11,7 @@ ro.zram.first_wb_delay_mins=1440
 ro.zram.periodic_wb_delay_hours=24
 
 # Infinity-X Props
-ro.product.marketname=Pocophone F1
+ro.product.marketname=POCO F1
 ro.infinity.soc=Snapdragon® 845
 ro.infinity.battery=4000 mAh
 ro.infinity.display=6.18″, 60Hz, 2246x1080
