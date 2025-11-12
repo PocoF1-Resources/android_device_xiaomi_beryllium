@@ -94,6 +94,9 @@ endif
 PRODUCT_PACKAGES += \
     XiaomiPocketMode
 
+# Priv-keys
+-include vendor/lineage-priv/keys/keys.mk
+
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
