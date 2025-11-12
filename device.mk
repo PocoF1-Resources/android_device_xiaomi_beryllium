@@ -90,6 +90,9 @@ ifeq ($(TARGET_BUILD_VARIANT),user)
 TARGET_DISABLE_MATLOG := true
 endif
 
+# Priv-keys
+-include vendor/evolution-priv/keys/keys.mk
+
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
