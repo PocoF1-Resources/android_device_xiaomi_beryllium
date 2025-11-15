@@ -1,6 +1,6 @@
 # Common Device Tree
 rm -rf device/xiaomi/sdm845-common
-git clone https://github.com/PocoF1-Resources/android_device_xiaomi_sdm845-common.git -b 16.0 device/xiaomi/sdm845-common --depth=1
+git clone https://github.com/PocoF1-Resources/android_device_xiaomi_sdm845-common.git -b mica device/xiaomi/sdm845-common --depth=1
 
 # Vendor Tree
 rm -rf vendor/xiaomi/beryllium
