@@ -30,5 +30,8 @@ WITH_GMS := true
 WITH_GMS_COMMS_SUITE := true
 TARGET_SUPPORTS_WALLEFFECT := true
 
+# Perf Activity Anim Override
+PERF_ANIM_OVERRIDE := true
+
 # Bypass Charging flags
 BYPASS_CHARGE_SUPPORTED := true
