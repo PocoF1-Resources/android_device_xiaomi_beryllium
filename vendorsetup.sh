@@ -12,13 +12,8 @@ git clone https://github.com/PocoF1-Resources/proprietary_vendor_xiaomi_sdm845-c
 
 # Kernel Tree
 rm -rf kernel/xiaomi/sdm845
-git clone https://github.com/PocoF1-Resources/android_kernel_xiaomi_sdm845.git -b 16.0-KSU-Next kernel/xiaomi/sdm845 --depth=1
+git clone https://github.com/PocoF1-Resources/android_kernel_xiaomi_sdm845.git -b 16.0-bpf kernel/xiaomi/sdm845 --depth=1
 
 # Hardware
 rm -rf hardware/xiaomi
-git clone https://github.com/PocoF1-Resources/hardware_xiaomi.git -b 16 hardware/xiaomi
-
-# KernelSU
-cd kernel/xiaomi/sdm845
-curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -
-cd ../../..
+git clone https://github.com/PocoF1-Resources/hardware_xiaomi.git -b lineage-23.0 hardware/xiaomi
