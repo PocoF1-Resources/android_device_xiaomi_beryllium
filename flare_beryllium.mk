@@ -7,10 +7,10 @@
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/flare/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_beryllium
+PRODUCT_NAME := flare_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
@@ -23,15 +23,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=Xiaomi/beryllium/beryllium:10/QKQ1.190828.002/V12.0.3.0.QEJMIXM:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# Matrixx
-MATRIXX_BUILD_TYPE := Official
-WITH_GMS := true
-WITH_GMS_COMMS_SUITE := true
-TARGET_SUPPORTS_WALLEFFECT := true
-
-# Perf Activity Anim Override
-PERF_ANIM_OVERRIDE := true
-
-# Bypass Charging flags
-BYPASS_CHARGE_SUPPORTED := true
